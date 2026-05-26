@@ -1,0 +1,9 @@
+openai
+faiss-cpu
+rank_bm25
+pypdf
+langchain-text-splitters
+sentence-transformers
+numpy
+streamlit
+python-dotenv
