@@ -24,19 +24,33 @@ Assignment/
 
 ## Setup
 
-**1. Install dependencies**
+**1. Create and activate a virtual environment**
+
+Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+Mac/Linux:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+**2. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-**2. Add your OpenAI API key to `.env`**
+**3. Add your OpenAI API key to `.env`**
 ```
 OPENAI_API_KEY=sk-...
 ```
 
-**3. Place PDF documents in the `docs/` folder**
+**4. Place PDF documents in the `docs/` folder**
 
-**4. Run the app**
+**5. Run the app**
 ```bash
 streamlit run app.py
 ```
